@@ -13,7 +13,6 @@ import java.util.*
 
 class AlbumAdapter(var con: Context, var list: List<AlbumsItem>):RecyclerView.Adapter<AlbumAdapter.MyViewHolder>(){
 
-    private var data = emptyList<AlbumsItem>()
 
     inner class MyViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         var id = itemView.findViewById<TextView>(R.id.tv_id)

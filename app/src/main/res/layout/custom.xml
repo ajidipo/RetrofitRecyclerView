@@ -31,6 +31,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID :"
+                    android:fontFamily="monospace"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/tv_id"
@@ -54,6 +61,20 @@
             </LinearLayout>
 
 
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="monospace"
+                android:text="USER ID :"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/tv_userid"
                 android:layout_width="match_parent"
@@ -65,11 +86,13 @@
                 android:textSize="15sp"
                 android:textStyle="bold" />
 
+
+        </LinearLayout>
+
             <TextView
                 android:id="@+id/tv_title"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginTop="15dp"
+                android:layout_height="match_parent"
                 android:layout_weight="2"
                 android:fontFamily="monospace"
                 android:text="title"
